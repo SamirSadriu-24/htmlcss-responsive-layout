@@ -248,7 +248,17 @@ a{
         flex-direction: column;
         align-items: center;
     }
+    #banner{
+        display:none;
+    }
+    .social{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
+    .presentation h2{
+        margin-top:10px;
+    }
     .presentation img{
         float:none;
         width:70%;
