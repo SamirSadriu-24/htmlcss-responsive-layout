@@ -196,3 +196,65 @@ a{
 
     }
 }
+
+@media only screen and (max-width: 600px) {
+
+    .container{
+        width: 90%;
+        margin:0 auto;
+    }
+
+    .jumbotron h2 span{
+        display:none;
+    }
+
+    .jumbotron h3{
+        margin-bottom:0px;
+    }
+
+    .card-container{
+        flex-direction: column;
+    }
+
+    .card-list{
+        padding:20px 10px;
+    }
+    .card-list ul{
+        display:flex;
+        flex-direction: column;
+    }
+    .card-list li{
+        display:flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .social li a span{
+        display:none;
+    }
+
+    .container_footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container_sx{
+        text-align: center;
+
+    }
+
+    .presentation_paragraph{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentation img{
+        float:none;
+        width:70%;
+    }
+
+    .container_sx{
+        flex-wrap: wrap;
+    }
+}
